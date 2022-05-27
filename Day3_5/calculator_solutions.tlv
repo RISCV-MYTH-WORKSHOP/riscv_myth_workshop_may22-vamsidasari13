@@ -145,7 +145,6 @@
    // stimulus support, and Verilator config.
    m4_makerchip_module   // (Expanded in Nav-TLV pane.)
 \TLV
-   $reset = *reset;
 
    |calc
       @1
@@ -189,7 +188,7 @@
    // stimulus support, and Verilator config.
    m4_makerchip_module   // (Expanded in Nav-TLV pane.)
 \TLV
-   $reset = *reset;
+   
 
    |calc
       @0
@@ -234,7 +233,7 @@
    // stimulus support, and Verilator config.
    m4_makerchip_module   // (Expanded in Nav-TLV pane.)
 \TLV
-   $reset = *reset;
+  
 
    |calc
       @0
