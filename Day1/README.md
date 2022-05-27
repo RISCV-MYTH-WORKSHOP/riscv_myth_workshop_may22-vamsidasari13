@@ -9,16 +9,8 @@ RISC-V is an open standard instruction set architecture (ISA), meaning it is pro
 
 The GNU compiler toolchain is a collection of programming tools used for developing applications and operating systems; it has tools that make and compile code into machine-readable programs.
 
-# Day 02
 
-•	Application Binary Interface (ABI)
-
-The Application Binary Interface (ABI), also known as the System Call Interface, is used by the program to access the ISA registers. RISC-V architecture contains 32 registers of width 32/64 if using RV32I/RV64I.
-
-•	Day 2 Lab: ABI Function Calls
-
-A simple program for summing numbers 1 to 9 was created; view source in Day2 folder. The compiled output in assembly.
-
-![Day-02_assembly_lang](https://user-images.githubusercontent.com/67407412/170745328-9789d121-1a15-49f7-8054-e3f6e756b324.jpg)
+![Day-01_debugging](https://user-images.githubusercontent.com/67407412/170760353-78f61f0c-b1aa-4ebd-84f7-20efc2ce3091.jpg)
 
 
+![Day-01_Ofast_assembly_lang](https://user-images.githubusercontent.com/67407412/170760367-07850bd1-9767-4e8e-aa19-b88d670c6fd1.jpg)
