@@ -1,0 +1,9 @@
+1)Program Counter(PC) & Instruction Memory & Type Decode = https://www.makerchip.com/sandbox/0G6fJhQlx/0nZh7Qz
+
+2)Instruction Immediate & Field Decode = https://www.makerchip.com/sandbox/0G6fJhQlx/0qjh8G2
+
+3)Instruction Decode individual Instruction = https://www.makerchip.com/sandbox/0G6fJhQlx/0y8hrEq
+
+4)RF Read & Write &ALU & Branches = https://www.makerchip.com/sandbox/0G6fJhQlx/0Nxh01B
+
+5)Testbench (Testing with Sum of 1toN) = https://www.makerchip.com/sandbox/0G6fJhQlx/0Wnh5p5 
