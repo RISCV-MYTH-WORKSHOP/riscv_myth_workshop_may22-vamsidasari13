@@ -9,17 +9,48 @@
 
 The material and code created during the RISC-V MYTH Workshop are housed in this repository. The basic RISC-V ISA was researched and a rudimentary RISC-V core with base instruction set was developed in five days.   In addition to the Makerchip IDE Platform, the RISC-V CPU Core was designed using Transaction Level Verilog (TL-Verilog). 
 
-Day-01
-Introduction to RICS-V ISA and GNU Compiler toolchain
+### Day 1 : Introduction to RISC-V ISA and GNU compiler toolchain
 
-Day-02
-Intoduction to ABI and basic verification flow
+•	Introduction to RISC-V basic keywords
 
-Day-03 
-Digtial Logic with TL-Verilog and Makerchip
+•	Labwork for RISC-V software toolchain
 
-Day-04 
-Basic RISC-V CPU micro architecture
+•	Integer number representation
 
-Day-05
-Complete Piplined RISC-V CPU micro architecture store
+•	Signed and unsigned arithmetic operations
+
+### Day 2: Introduction to ABI and basic verification flow
+
+•	Application Binary interface (ABI)
+
+•	Lab work using ABI function calls
+
+•	Basic verification flow using iverilog
+
+### Day 3: Digital Logic with TL-Verilog and Makerchip
+
+•	Combinational logic in TL-Verilog using Makerchip
+
+•	Sequential and pipelined logic
+
+•	Validity
+
+•	Hierarchy
+
+### Day 4: Basic RISC-V CPU micro-architecture
+
+•	Microarchitecture and testbench for a simple RISC-V CPU
+
+•	Fetch, decode, and execute logic
+
+•	RISC-V control logic
+
+### Day 5: Complete Pipelined RISC-V CPU micro-architecture/store
+
+•	Pipelining the CPU
+
+•	Load and store instructions and memory
+
+•	Completing the RISC-V CPU
+
+•	Wrap-up and future opportunities
