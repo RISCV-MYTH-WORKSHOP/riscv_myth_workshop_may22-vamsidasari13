@@ -27,3 +27,25 @@ The building blocks of a simple CPU are program counter (PC), instruction memory
 A simple RISC-V core from fetch and decode to control logic with branching was created. The diagram and viz showing final instruction executed:
 
 ![read write ALU Branches](https://user-images.githubusercontent.com/67407412/170811232-7eb7a3fc-dd05-4774-9ca2-2b63b453651d.jpg)
+
+# Day 5
+Complete Pipelined RISC-V CPU micro-architecture
+Day 5 of the workshop included the following:
+
+ 1. Pipelining the CPU
+ 2. Load and store instructions and memory
+ 3. Completing the RISC-V CPU
+ 4. Wraping-up
+ 
+Finally, the RISC-V core was developed on Day_4. Now its time for implementing the pipelining technique for the core, and some additonal instructions. The above architecture is pipelined as follows :
+
+A 3 cycle RISC V pipelined core, with all the base integer instruction sets was developed.
+For Load and store a Data memory element was added with neccessary instruction decoding logic.
+Register Bypass and Squashing techniques were also incorporated to prevent Read followed by write and branchinghazards, arised due to pipelining.
+Testing of the pipeline design was done in same manner with Load and store incorporated in asm code.
+Additionally Incorporation of Jump feature (JAL and JALR instructions) was also done.
+
+![Complete RISCV](https://user-images.githubusercontent.com/67407412/170876739-2ed949f8-5cda-4744-b139-faedb0df0c31.jpg)
+
+![Final](https://user-images.githubusercontent.com/67407412/170876756-a8eb3aba-7edc-4f9f-a55f-ea05c27e6f1a.jpg)
+
